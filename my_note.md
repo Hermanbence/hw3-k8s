@@ -3,12 +3,16 @@
 kubectl get deployments
 kubectl get pods 
 kubectl get all -l homework=frontapp
+```
 - l
+```
 - label
 
 ## kubectl apply
 kubectl apply -f deployment.yaml
-- f 
+```
+- f
+``` 
 file name
 kubectl apply -f k8s/
 - apply a folder it run all the yaml in it.
