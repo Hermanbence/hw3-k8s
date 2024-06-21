@@ -24,6 +24,7 @@ kubectl delete pods --all
 kubectl delete all --all
 - not incude ingress
 kubectl delete pods,services -l name=myLabel
+kubectl delete pod,service,ingress --all -n your-namespace
 
 kubectl delete -f k8s/
 - also delete ingress

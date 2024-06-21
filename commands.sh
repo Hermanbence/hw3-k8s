@@ -12,6 +12,6 @@ kubectl logs backapp-deployment-b6c946688-6ksdr backapp
 kubectl get all -l homework=frontapp
 
 # command for listing deleting both applications’ resources (1 command)
-kubectl delete -f k8s/
+kubectl delete pod,service,ingress --all
 # kubectl delete all --all
-# Unfortunetly it's not deleting the kind: ingress            
+# Unfortunetly it's not deleting the kind: ingress   
