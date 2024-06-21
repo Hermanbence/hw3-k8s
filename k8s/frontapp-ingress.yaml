@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: frontapp-ingress
+  name: frontapp
   labels: 
     homework: frontapp
     training: block3

@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: backapp-deployment
+  name: backapp
   labels:
     homework: backapp
     training: block3
