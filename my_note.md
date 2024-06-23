@@ -30,6 +30,10 @@ kubectl delete all --all
 kubectl delete pods,services -l name=myLabel
 kubectl delete pod,service,ingress --all -n your-namespace
 
+kubectl delete pod,service,ingress --all
+
+kubectl delete pod,service,ingress,deployment -l training=block3
+
 kubectl delete -f k8s/
 - also delete ingress
 

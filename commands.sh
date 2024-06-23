@@ -8,6 +8,4 @@ kubectl logs deployment/backapp
 kubectl get all -l homework=frontapp
 
 # command for listing deleting both applications’ resources (1 command)
-kubectl delete pod,service,ingress --all
-# kubectl delete all --all -n my-other-namespace
-# Unfortunetly it's not deleting the kind: ingress  
+kubectl delete pod,service,ingress,deployment -l training=block3
